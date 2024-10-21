@@ -2,15 +2,15 @@
 <main>
 	<div>
 	  
-	  <h1 class="name"> UFC card game! </h1>
-	  <h2 class="item">fc är bra!!</h2>
-	  <h3 id="number">mat ätare</h3>
+	  <h1 class="name"> livet är enkelt! </h1>
+	  <h2 class="item">fokuser på riktiga!!</h2>
+	  <h3 id="number">ät mat</h3>
 	
 	  <p id="inspo">
-	"The only way to learn a new programming language is by writing programs in it." - <strong>Dennis Ritchie</strong>, creator of the C programming language.
+	"låt livet liva." - <strong>någon bra</strong>, inte jag.
 	</p>
 	<p style="background-color:purple">
-	"Every great developer you know got there by solving problems they were unqualified to solve until they actually did it." - <span>Patrick McKenzie, software engineer and entrepreneur</span>.
+	"Live yourself" - <span>Central Cee</span>.
 	</p>
 	  
 	</div>
