@@ -7,12 +7,12 @@
     let email = "";
     let password = "";
     let age = "";
-    let color = "black";
+    let color = "grey";
 
     let colors = [
         { namn: "Blå", value: "blue" },
         { namn: "Röd", value: "red" },
-        { namn: "Svart", value: "black" }
+        { namn: "Grå", value: "grey" }
     ];
 
     onMount(() => {
@@ -70,9 +70,10 @@
 
     <style>
     main {
-        background-image: url("https://t4.ftcdn.net/jpg/05/21/65/59/360_F_521655929_N80d5GaCQJ2VP073PfTXJTe9mkvsNtHE.jpg");
+        background-image: url("https://i.pinimg.com/control2/736x/77/b2/b9/77b2b92174c85e3bd6a3f5fe63780e07.jpg");
         background-size: cover;
         width: 100%;
+        height: 100%;
         min-height: 500px;
         padding: 5%;
     }
@@ -81,13 +82,13 @@
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
-        border: solid 5px rosybrown;
-        border-radius: 10px;
+        border: solid 5px rgb(0, 0, 0);
+        border-radius: 30px;
         width: 35%;
         height: 80%;
         min-width: 300px;
         min-height: 500px;
-        background-color: #3a2e3b;
+        background-color: #000000;
         margin: auto;
     }
     </style>

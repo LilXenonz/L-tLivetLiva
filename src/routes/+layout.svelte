@@ -20,6 +20,16 @@
 	import { computePosition, autoUpdate, flip, shift, offset, arrow } from '@floating-ui/dom';
 	import { storePopup } from '@skeletonlabs/skeleton';
 	storePopup.set({ computePosition, autoUpdate, flip, shift, offset, arrow });
+	
 </script>
 
 <slot />
+
+<style>
+	:global(body), :global(html){
+  margin: 0%;
+  padding: 0%;
+  height: 100vh;
+  width: 100vw;
+}
+</style>

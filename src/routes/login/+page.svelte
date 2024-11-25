@@ -25,7 +25,7 @@
             return;
         }
 
-        alert(`Välkommen tillbaka, ${found_user[0].username}! Du är nu inloggad.`);
+        alert(`Välkommen tillbaks, ${found_user[0].username}! Du är nu inloggad.`);
     }
     </script>
 
@@ -58,13 +58,13 @@
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
-        border: solid 5px rosybrown;
-        border-radius: 10px;
-        width: 35%;
+        border: solid 5px rgb(0, 0, 0);
+        border-radius: 20px;
+        width: 40%;
         height: auto;
         min-width: 300px;
         min-height: 300px;
-        background-color: #3a2e3b;
+        background-color: #000000;
         margin: auto;
     }
     </style>

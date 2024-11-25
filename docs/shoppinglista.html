@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="./favicon.png" />
+		<meta name="viewport" content="width=device-width" />
+		
+		<link href="./_app/immutable/assets/0.DBj8YpK5.css" rel="stylesheet">
+		<link href="./_app/immutable/assets/6.Dx9JT9T2.css" rel="stylesheet">
+		<link rel="modulepreload" href="./_app/immutable/entry/start.Csjm6A-A.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/entry.CGai01Mb.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/scheduler.NrZV1iTz.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index.DfnQekQk.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.D7V-I3s1.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index.BNALcpTY.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/0.BE7xtGHP.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/6.C1lvK35P.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/each.D6YF6ztN.js">
+	</head>
+	<body data-sveltekit-preload-data="hover" data-theme="skeleton">
+		<div style="display: contents">  <main class="container svelte-d0993f"><h1 class="svelte-d0993f" data-svelte-h="svelte-1ycj1me">Shopping List</h1>  <div class="input-container svelte-d0993f"><input type="text" placeholder="Add new item..." class="svelte-d0993f" value=""> <button class="svelte-d0993f" data-svelte-h="svelte-12ksf09">Add</button></div> <div class="categories_container svelte-d0993f"> <section class="svelte-d0993f"><h2 class="svelte-d0993f" data-svelte-h="svelte-1ii7gv3">Items to Buy</h2> <ul class="svelte-d0993f"><li class="svelte-d0993f">Apples <div><button class="move-button svelte-d0993f" data-svelte-h="svelte-1wu7qmh">Mark as Purchased</button> <button class="svelte-d0993f" data-svelte-h="svelte-1olnwfn">Remove</button></div> </li><li class="svelte-d0993f">Bananas <div><button class="move-button svelte-d0993f" data-svelte-h="svelte-1wu7qmh">Mark as Purchased</button> <button class="svelte-d0993f" data-svelte-h="svelte-1olnwfn">Remove</button></div> </li><li class="svelte-d0993f">Milk <div><button class="move-button svelte-d0993f" data-svelte-h="svelte-1wu7qmh">Mark as Purchased</button> <button class="svelte-d0993f" data-svelte-h="svelte-1olnwfn">Remove</button></div> </li><li class="svelte-d0993f">Bread <div><button class="move-button svelte-d0993f" data-svelte-h="svelte-1wu7qmh">Mark as Purchased</button> <button class="svelte-d0993f" data-svelte-h="svelte-1olnwfn">Remove</button></div> </li></ul></section>  <section class="svelte-d0993f"><h2 class="svelte-d0993f" data-svelte-h="svelte-18g6y4d">Purchased Items</h2> <ul class="svelte-d0993f"></ul></section></div></main> 
+			
+			<script>
+				{
+					__sveltekit_ei7dfe = {
+						base: new URL(".", location).pathname.slice(0, -1)
+					};
+
+					const element = document.currentScript.parentElement;
+
+					const data = [null,null];
+
+					Promise.all([
+						import("./_app/immutable/entry/start.Csjm6A-A.js"),
+						import("./_app/immutable/entry/app.D7V-I3s1.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element, {
+							node_ids: [0, 6],
+							data,
+							form: null,
+							error: null
+						});
+					});
+				}
+			</script>
+		</div>
+	</body>
+</html>
