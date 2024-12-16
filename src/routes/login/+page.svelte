@@ -16,7 +16,7 @@
         let found_user = users.filter(user => user.email === email);
 
         if (found_user.length === 0) {
-            alert("Användaren finns inte. Kontrollera e-post eller registrera ett konto.");
+            alert("Användaren finns inte. Säkerställ e-post eller registrera ett konto.");
             return;
         }
 
@@ -47,7 +47,7 @@
 
     <style>
     main{
-        background-image: url("https://t4.ftcdn.net/jpg/05/21/65/59/360_F_521655929_N80d5GaCQJ2VP073PfTXJTe9mkvsNtHE.jpg");
+        background-image: url("https://upload.wikimedia.org/wikipedia/commons/9/92/UFC_Logo.svg");
         background-size: cover;
         width: 100%;
         min-height: 500px;

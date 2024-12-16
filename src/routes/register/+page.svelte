@@ -26,14 +26,14 @@
 
         let existing_users = users.filter(user => user.username === name);
         if (existing_users.length > 0) {
-            alert("Användarnamnet finns redan! Vänligen välj ett annat.");
+            alert("Användarnamnet finns redan! Välj anna.");
             return;
         }
 
         users = [...users, new_user];
         $users_store = JSON.stringify(users);
 
-        alert(`Välkommen ${name}! \nE-post: ${email} \nLösenord: ${password}`);
+        alert("Välkommen ${name}! \nE-post: ${email} \nLösenord: ${password}");
     }
     </script>
 
