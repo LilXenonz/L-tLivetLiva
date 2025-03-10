@@ -198,7 +198,7 @@
 </style>
 
 <div class="title">❤️ZIBBI❤️</div>
-<img src="src\routes\zibbi\blommor.jpg" alt="" class="flower-underline">
+<img src="/blommor.jpg" alt="" class="flower-underline">
 <div class="cart-container">
     <img src="https://www.freeiconspng.com/thumbs/cart-icon/basket-cart-icon-27.png" class="cart" alt="Shopping Cart">
     <div class="count">0st</div>
@@ -241,8 +241,8 @@
 
 <div class="footer">
     <div>
-        <a href="/faq">About Us</a>
-        <a href="/returnrätt">FAQ</a>
-        <a href="/kontakta oss">Contact</a>
+        <a >About Us</a>
+        <a >FAQ</a>
+        <a >Contact</a>
     </div>
 </div>

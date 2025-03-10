@@ -26,7 +26,7 @@
 <style>
 	@font-face {
     font-family: 'Geraldine';
-    src: url("C:\teknik\Hemmsidor\my-website\src\routes\zibbi\Reilova.ttf") format('truetype');
+    src: url("\Reilova.ttf") format('truetype');
     font-weight: normal;
     font-style: normal;
 }
