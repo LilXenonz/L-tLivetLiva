@@ -1,4 +1,6 @@
 <script>
+  import { onMount } from 'svelte';
+
   let names = [
     "Aaron", "Abigail", "Adam", "Adelaide", "Alex", "Alice", "Amelia", "Andrew", "Angela", "Anna", 
     "Benjamin", "Bethany", "Blake", "Brady", "Brenda", "Brian", "Brianna", "Brooke", "Bryce", "Bruce",
@@ -16,8 +18,20 @@
     "Thomas", "Tina", "Tyler", "Tracy", "Tristan", "Troy", "Tyson", "Vanessa", "Victor", "Violet",
     "William", "Willa", "Wyatt", "Xander", "Xena", "Yara", "Yasmine", "Zane", "Zara"
   ];
+
   let selectedName = "";
-  let buttonPosition = { x: window.innerWidth / 2 - 50, y: window.innerHeight / 2 + 100 }; 
+  
+  // Initialize button position with default values
+  let buttonPosition = { x: 50, y: 100 };
+
+  // Make sure window-related code runs only in the browser
+  onMount(() => {
+    buttonPosition = { 
+      x: window.innerWidth / 2 - 50, 
+      y: window.innerHeight / 2 + 100 
+    };
+  });
+
   let isButtonDisabled = true;
 
   const moveButton = (event) => {
@@ -69,21 +83,23 @@
   }
 </style>
 
-<div class="container">
-  <label for="name">Select your name:</label>
-  <select id="name" bind:value={selectedName} on:change={enableButton} style="color: black;" >
-    <option value="">-- Choose a name --</option>
-    {#each names as name}
-      <option value={name}>{name}</option>
-    {/each}
-  </select>
+<main>
+  <div class="container">
+    <label for="name">Select your name:</label>
+    <select id="name" bind:value={selectedName} on:change={enableButton} style="color: black;">
+      <option value="">Choose a name</option>
+      {#each names as name}
+        <option value={name}>{name}</option>
+      {/each}
+    </select>
 
-  <button
-    class="confirm-btn"
-    on:mouseenter={moveButton}
-    disabled={isButtonDisabled}
-    style="left: {buttonPosition.x}px; top: {buttonPosition.y}px;"
-  >
-    Confirm
-  </button>
-</div>
+    <button
+      class="confirm-btn"
+      on:mouseenter={moveButton}
+      disabled={isButtonDisabled}
+      style="left: {buttonPosition.x}px; top: {buttonPosition.y}px;"
+    >
+      Confirm
+    </button>
+  </div>
+</main>

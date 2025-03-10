@@ -46,12 +46,16 @@
     </main>
 
     <style>
+    h1{
+        color: white;
+    }
     main{
         background-image: url("https://upload.wikimedia.org/wikipedia/commons/9/92/UFC_Logo.svg");
         background-size: cover;
         width: 100%;
-        min-height: 500px;
+        height: 60%;
         padding: 5%;
+        background-color: black;
     }
 
     .container {
